@@ -1,0 +1,181 @@
+/* BODY */
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 10%;
+}
+
+/* HEADINGS */
+
+#main-title {
+    text-align: center;
+    background-color: olivedrab;
+    color: white;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* CONTAINERS */
+
+.container {
+    background-color: darkkhaki;
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+/* COLOR PANELS */
+
+.color-panel {
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.cornflower-blue {
+    color: black;
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+
+.antique-white {
+    color: black;
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+
+.dark-red {
+    color: white;
+    background-color: darkred;
+    font-weight: bold;
+}
+
+.goldenrod {
+    color: black;
+    background-color: goldenrod;
+    font-weight: bold;
+}
+
+.lavender {
+    color: black;
+    background-color: lavender;
+    font-weight: bold;
+}
+
+.violet {
+    color: black;
+    background-color: violet;
+    font-weight: bold;
+}
+
+/* FONT PANELS */
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.nunito-sans {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic; 
+}
+
+/* TEXT PANELS */
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* BACKGROUND IMAGE */
+
+#bg {
+    opacity: 80%;
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -1;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
