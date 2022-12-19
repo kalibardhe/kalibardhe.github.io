@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/spacemono/v12/i7dPIFZifjKcF5UAWdDRYEF8RQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    font-family: 'Space Mono';
+    opacity: 0.9;
+    font-size: 16px;
+    margin: 0;
+    background-color: cornflowerblue;
+}
+
+.header {
+    padding-top: 1rem;
+    background-color: darkkhaki;
+    color: black;
+}
+
+.intro {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url(../images/bahnijit-barman-1fZC2rYbpsU-unsplash.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.intro h1 {
+    color: khaki;
+    font-size: 2rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+  }
+
+li {
+    color: black;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+  }
+
+.summary,
+.testimonial,
+.images,
+.meetup {
+  margin: 4em auto;
+}
+
+.summary {
+    padding: 0 1rem;
+  }
+
+.summary p {
+    color: white;
+  }
+
+.testimonial {
+    background-color: teal;
+    height: 20rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    color: khaki;
+    text-align: center;
+  }
+
+.testimonial h1 {
+    font-size: 2.5rem;
+    color: khaki;
+  }
+  
+.summary h2 {
+    color: khaki;
+  }
+  
+.images {
+    display: flex;
+}
+
+.images img {
+    height: 30%;
+    width: 30%;
+    margin: 1.5%;
+  }
+
+.meetup {
+    margin-bottom: 2rem;
+  }
+  
+.meetup h1 {
+    color: khaki;
+    text-align: center;
+  }
+  
+@media only screen and (max-width: 1048px) {
+     .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+@media only screen and (max-width: 640px) {
+     .intro h1 {
+      margin-top: 2rem;
+    }
+  
+    .intro {
+      max-height: 200px;
+    }
+  
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    li {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+@media only screen and (max-width: 320px) {
+    .testimonial h1 {
+      font-size: 2rem;
+    }
+  
+    .photos img {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .testimonial h1 {
+      font-size: 2rem;
+    }
+  
+    .photos img {
+      width: 100%;
+    }
+  }
