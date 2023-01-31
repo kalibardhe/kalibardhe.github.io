@@ -6,6 +6,9 @@ This is my first personal tech portfolio. I started it with the purpose of showc
 
 First commit done. Under development for now. First pages "About Me" and "Contact" done. Will add the others later on.
 
+## Usage
+
+Just browse to https://kalibardhe.github.io/ so you can see the live page.
 
 ## License
 
